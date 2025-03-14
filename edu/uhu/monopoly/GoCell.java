@@ -8,7 +8,8 @@ public class GoCell extends Cell {
 		setAvailable(false);
 	}
 
-	public void playAction() {
+	public boolean playAction(String msg) {
+		return true;
 	}
 	
 	void setName(String name) {
